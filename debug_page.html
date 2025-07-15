@@ -1,0 +1,783 @@
+<html style="height: auto;"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IARE - Course Content Delivery - Student</title>
+	<!-- Favicons -->
+	<link href="https://samvidha.iare.ac.in/images/favicon.ico" rel="icon">
+	<!-- Tell the browser to be responsive to screen width -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/plugins/fontawesome-free/css/all.min.css">
+	<!-- Ionicons -->
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- Tempusdominus Bbootstrap 4 -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+	<!-- iCheck -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+	<!-- JQVMap -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/plugins/jqvmap/jqvmap.min.css">
+	<!-- Theme style -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/dist/css/adminlte.min.css">
+	<!-- overlayScrollbars -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+	<!-- Daterange picker -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/plugins/daterangepicker/daterangepicker.css">
+	<!-- summernote -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/plugins/summernote/summernote-bs4.css">
+	<!-- Google Font: Source Sans Pro -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	<!-- my Custome style -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/dist/css/custome.css">
+	
+	<!-- jQuery -->
+	<script src="https://samvidha.iare.ac.in/plugins/jquery/jquery.min.js"></script>
+	<!-- jQuery UI 1.11.4 -->
+	<script src="https://samvidha.iare.ac.in/plugins/jquery-ui/jquery-ui.min.js"></script>
+	<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+	<!-- Bootstrap 4 -->
+	<script src="https://samvidha.iare.ac.in/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- SweetAlert2 -->
+	<link rel="stylesheet" href="https://samvidha.iare.ac.in/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+	<script src="https://samvidha.iare.ac.in/plugins/sweetalert2/sweetalert2.min.js"></script>
+	
+	
+</head>
+<body class="sidebar-mini layout-fixed sidebar-collapse" style="height: auto;">
+
+<div class="wrapper"> 
+<!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="https://samvidha.iare.ac.in/home" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+	  <li class="nav-item d-none d-sm-inline-block">
+        <a href="https://samvidha.iare.ac.in/logout" class="nav-link text-danger">Sign out</a>
+      </li>
+	  
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">0</span>
+        </a>
+        <!--<div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>-->
+      </li>
+	  <li class="nav-item dropdown user user-menu open">
+		 <a class="nav-link" data-toggle="dropdown" href="#">
+						<img src="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/STUDENTS/23951A0483/23951A0483.jpg" class="user-image" title="MOTUPALLI KUGAN">
+			<span class="hidden-xs">MOTUPALLI KUGAN</span>
+		</a>
+		<ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+		  <!-- User image -->
+		  <li class="user-header">
+			<img src="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/STUDENTS/23951A0483/23951A0483.jpg" class="img-circle" alt="MOTUPALLI KUGAN" title="MOTUPALLI KUGAN">
+			<p>MOTUPALLI KUGAN</p>
+			<small>
+			23951A0483<br>B.Tech V Semester - A Section<br>Electronics and Communication Engineering			</small>
+		  </li>
+		  <!-- Menu Footer-->
+		  <li class="user-footer">
+						<div class="float-left">
+			  <a href="https://samvidha.iare.ac.in/home?action=profile" class="btn btn-primary">Profile</a>
+			</div>
+						<div class="float-right">
+			  <a href="https://samvidha.iare.ac.in/logout" class="btn btn-danger">Sign out</a>
+			</div>
+		  </li>
+		</ul>
+	  </li>
+	  
+    
+    </ul>
+  </nav>
+  <!-- /.navbar --><!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="https://samvidha.iare.ac.in/home" class="brand-link" title="Institute of Aeronautical Engineering">
+		<img src="https://samvidha.iare.ac.in/images//logo.jpg" alt="Institute of Aeronautical Engineering" title="Institute of Aeronautical Engineering" class="brand-image img-circle elevation-3">
+		<span class="brand-text font-weight-light">IARE</span>
+    </a>
+	<!-- Sidebar -->
+    <div class="sidebar os-host os-theme-light os-host-overflow os-host-overflow-y os-host-resize-disabled os-host-scrollbar-horizontal-hidden os-host-transition"><div class="os-resize-observer-host observed"><div class="os-resize-observer" style="left: 0px; right: auto;"></div></div><div class="os-size-auto-observer observed" style="height: calc(100% + 1px); float: left;"><div class="os-resize-observer"></div></div><div class="os-content-glue" style="margin: 0px -8px; width: 73px; height: 593px;"></div><div class="os-padding"><div class="os-viewport os-viewport-native-scrollbars-invisible" style="overflow-y: scroll;"><div class="os-content" style="padding: 0px 8px; height: 100%; width: 100%;">
+		<!-- Sidebar Menu -->
+		<nav class="mt-2">
+			<input type="text" id="myInput" placeholder="Search for menu.." title="Type in a menu name">
+			<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+				<!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
+				<li class="nav-item">
+					<a href="https://samvidha.iare.ac.in/home" class="nav-link " title="Dashboard">
+						<i class="nav-icon fas fa-tachometer-alt"></i>
+						<p> Dashboard </p>
+					</a>
+				</li>
+										<li class="nav-item has-treeview">
+								<a href="#" class="nav-link" title="Examinations">
+								  <i class="nav-icon fas fa-graduation-cap"></i>
+								  <p>Examinations <i class="fas fa-angle-left right"></i></p>
+								</a>
+								<ul class="nav nav-treeview">
+																			<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=cie_marks_ug" class="nav-link" title="Continuous Internal Assessment (CIA) Marks">
+												  <i class="nav-icon fas far fa-star"></i>
+												  <p> CIA Marks </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=admit_card_std" class="nav-link" title="Admit Card">
+												  <i class="nav-icon fas fa-print"></i>
+												  <p> Admit Card </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=exam_registration" class="nav-link" title="Exam Registration">
+												  <i class="nav-icon fas fa-graduation-cap"></i>
+												  <p> Exam Registration </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=makeupexam_registration" class="nav-link" title="Makeup Exam Registration">
+												  <i class="nav-icon fas fa-graduation-cap"></i>
+												  <p> Makeup Exam Registration </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=exam_results" class="nav-link" title="Exam Result">
+												  <i class="nav-icon fas fa-graduation-cap"></i>
+												  <p> Exam Result </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=credit_register" class="nav-link" title="Credit Register">
+												  <i class="nav-icon fas "></i>
+												  <p> Credit Register </p>
+												</a>
+											</li>
+																				<li class="nav-item has-treeview">
+												<a href="#" class="nav-link" title="Booklets">
+												  <i class="nav-icon fas fa-graduation-cap"></i>
+												  <p>Booklets <i class="fas fa-angle-left right"></i></p>
+												</a>
+												<ul class="nav nav-treeview">
+																												<li class="nav-item">
+																<a href="https://samvidha.iare.ac.in/home?action=see_booklet" class="nav-link" title="SEE Booklets">
+																  <i class="nav-icon fas "></i>
+																  <p> SEE Booklets </p>
+																</a>
+															</li>
+																												<li class="nav-item">
+																<a href="https://samvidha.iare.ac.in/home?action=cie_booklet" class="nav-link" title="CIE Booklets">
+																  <i class="nav-icon fas "></i>
+																  <p> CIE Booklets </p>
+																</a>
+															</li>
+																									</ul>
+											</li>
+																					<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=qp_scheme" class="nav-link" title="Question Paper and Solution">
+												  <i class="nav-icon fas fa-question"></i>
+												  <p> Question Paper and Solution </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=revaluation" class="nav-link" title="Revaluation">
+												  <i class="nav-icon fas fa-recycle"></i>
+												  <p> Revaluation </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=rem_registration" class="nav-link" title="Remedial Exam Registration">
+												  <i class="nav-icon fas fa-graduation-cap"></i>
+												  <p> Remedial Exam Registration </p>
+												</a>
+											</li>
+																	</ul>
+							</li>
+														<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=conf_night" class="nav-link " title="Confetti Night Registration">
+								  <i class="nav-icon fas fa-registered"></i>
+								  <p> Confetti Night Registration </p>
+								</a>
+							</li>
+													<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=IP_Registration" class="nav-link " title="Internship Program Registration">
+								  <i class="nav-icon fas fa-registered"></i>
+								  <p> Internship Program Registration </p>
+								</a>
+							</li>
+													<li class="nav-item has-treeview">
+								<a href="#" class="nav-link" title="Academics">
+								  <i class="nav-icon fas fa-university"></i>
+								  <p>Academics <i class="fas fa-angle-left right"></i></p>
+								</a>
+								<ul class="nav nav-treeview">
+																			<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=course_content" class="nav-link" title="Course Content Delivery">
+												  <i class="nav-icon fas fa-heart"></i>
+												  <p> Course Content Delivery </p>
+												</a>
+											</li>
+																				<li class="nav-item has-treeview">
+												<a href="#" class="nav-link" title="Course Registration">
+												  <i class="nav-icon fas fa-registered"></i>
+												  <p>Course Registration <i class="fas fa-angle-left right"></i></p>
+												</a>
+												<ul class="nav nav-treeview">
+																												<li class="nav-item">
+																<a href="https://samvidha.iare.ac.in/home?action=Course_Reg" class="nav-link" title="Regular Course Registration">
+																  <i class="nav-icon fas fa-registered"></i>
+																  <p> Regular Courses </p>
+																</a>
+															</li>
+																												<li class="nav-item">
+																<a href="https://samvidha.iare.ac.in/home?action=Course_reReg" class="nav-link" title="Course Re-Registration">
+																  <i class="nav-icon fas fa-registered"></i>
+																  <p> Re-Registration </p>
+																</a>
+															</li>
+																												<li class="nav-item">
+																<a href="https://samvidha.iare.ac.in/home?action=Acc_Course_Reg" class="nav-link" title="Accelerated Course Registration">
+																  <i class="nav-icon fas fa-registered"></i>
+																  <p> Accelerated Courses </p>
+																</a>
+															</li>
+																												<li class="nav-item">
+																<a href="https://samvidha.iare.ac.in/home?action=lite_course_std" class="nav-link" title="AICTE LITE Program Registration">
+																  <i class="nav-icon fas fa-registered"></i>
+																  <p> AICTE LITE Program Registration </p>
+																</a>
+															</li>
+																									</ul>
+											</li>
+																					<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=Attendance_std" class="nav-link" title="PAT Attendance">
+												  <i class="nav-icon fas fa-handshake"></i>
+												  <p> PAT Attendance </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=proj_title_allotment" class="nav-link" title="Project Selection &amp; Allotment">
+												  <i class="nav-icon fas fa-check-circle"></i>
+												  <p> Project Selection &amp; Allotment </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=aat_qst_select_std" class="nav-link" title="AAT Question Selection">
+												  <i class="nav-icon fas fa-plus"></i>
+												  <p> AAT Question Selection </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=tm_allotment" class="nav-link" title="Project Team Member Selection">
+												  <i class="nav-icon fas fa-check-circle"></i>
+												  <p> Project Team Member Selection </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=prj_thesis_report_STD" class="nav-link" title="Project Work /Thesis Report">
+												  <i class="nav-icon fas fa-check-circle"></i>
+												  <p> Project Work /Thesis Report </p>
+												</a>
+											</li>
+																	</ul>
+							</li>
+														<li class="nav-item has-treeview">
+								<a href="#" class="nav-link" title="Requisitions">
+								  <i class="nav-icon fas fa-graduation-cap"></i>
+								  <p>Requisitions <i class="fas fa-angle-left right"></i></p>
+								</a>
+								<ul class="nav nav-treeview">
+																			<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=req_certificate" class="nav-link" title="Certificate Request">
+												  <i class="nav-icon fas fa-certificate"></i>
+												  <p> Certificate Request </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=req_trans_stud" class="nav-link" title="Transcript / Duplicate / Name Correction Memo">
+												  <i class="nav-icon fas fa-certificate"></i>
+												  <p> Transcript / Duplicate / Name Correction Memo </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=skill_reg_frm" class="nav-link" title="Skill Program">
+												  <i class="nav-icon fas fa-check-circle"></i>
+												  <p> Skill Program </p>
+												</a>
+											</li>
+																	</ul>
+							</li>
+														<li class="nav-item has-treeview">
+								<a href="#" class="nav-link" title="Print Forms">
+								  <i class="nav-icon fas fa-print"></i>
+								  <p>Print Forms <i class="fas fa-angle-left right"></i></p>
+								</a>
+								<ul class="nav nav-treeview">
+																			<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=print_no_due" class="nav-link" title="No Dues">
+												  <i class="nav-icon fas fa-print"></i>
+												  <p> No Dues </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=print_tc_due" class="nav-link" title="TC Form">
+												  <i class="nav-icon fas fa-print"></i>
+												  <p> TC Form </p>
+												</a>
+											</li>
+																	</ul>
+							</li>
+														<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=acc_register_std" class="nav-link " title="Accession Register">
+								  <i class="nav-icon fas fa-hand-point-left"></i>
+								  <p> Accession Register </p>
+								</a>
+							</li>
+													<li class="nav-item has-treeview">
+								<a href="#" class="nav-link" title="Payments">
+								  <i class="nav-icon fas fa-money-bill"></i>
+								  <p>Payments <i class="fas fa-angle-left right"></i></p>
+								</a>
+								<ul class="nav nav-treeview">
+																			<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=fee_payment" class="nav-link" title="Online Fees Payment">
+												  <i class="nav-icon fas fa-money-bill"></i>
+												  <p> Online Fees Payment </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=fee_payment_ccav" class="nav-link" title="Online Fees Payment CCAV">
+												  <i class="nav-icon fas fa-money-bill"></i>
+												  <p> Online Fees Payment CCAV </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=fee_payment_status" class="nav-link" title="Fee Status">
+												  <i class="nav-icon fas fa-money-bill"></i>
+												  <p> Fee Status </p>
+												</a>
+											</li>
+																	</ul>
+							</li>
+														<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=TT_std" class="nav-link " title="Timetable">
+								  <i class="nav-icon fas fa-hand-point-left"></i>
+								  <p> Timetable </p>
+								</a>
+							</li>
+													<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=BC_STD" class="nav-link " title="Bonafide Certificate">
+								  <i class="nav-icon fas fa-money-bill"></i>
+								  <p> Bonafide Certificate </p>
+								</a>
+							</li>
+													<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=mybox" class="nav-link " title="My Box">
+								  <i class="nav-icon fas fa-inbox"></i>
+								  <p> My Box </p>
+								</a>
+							</li>
+													<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=up_photo_std" class="nav-link " title="Upload Birth Certificate">
+								  <i class="nav-icon fas fa-upload"></i>
+								  <p> Upload Birth Certificate </p>
+								</a>
+							</li>
+													<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=up_abc_std" class="nav-link " title="Update Academic Bank of credit">
+								  <i class="nav-icon fas fa-edit"></i>
+								  <p> Update Academic Bank of credit </p>
+								</a>
+							</li>
+													<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=bus_registration" class="nav-link " title="">
+								  <i class="nav-icon fas fa-registered"></i>
+								  <p> Bus Registration </p>
+								</a>
+							</li>
+													<li class="nav-item has-treeview">
+								<a href="#" class="nav-link" title="Uploads">
+								  <i class="nav-icon fas fa-upload"></i>
+								  <p>Uploads <i class="fas fa-angle-left right"></i></p>
+								</a>
+								<ul class="nav nav-treeview">
+																			<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=upload_cvn_std" class="nav-link" title="Upload CVC Certificate">
+												  <i class="nav-icon fas fa-certificate"></i>
+												  <p> Upload CVC Certificate </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=aat_upload" class="nav-link" title="AAT (Tech Talk / Seminar Talk)">
+												  <i class="nav-icon fas fa-upload"></i>
+												  <p> AAT (Tech Talk) </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=project_upload" class="nav-link" title="Upload Project Work">
+												  <i class="nav-icon fas fa-upload"></i>
+												  <p> Upload Project Work </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=aatfmv_upload" class="nav-link" title="AAT (Concept Video)">
+												  <i class="nav-icon fas fa-upload"></i>
+												  <p> AAT (Concept Video) </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=upload_aat_2" class="nav-link" title="AAT-II">
+												  <i class="nav-icon fas fa-upload"></i>
+												  <p> AAT-II </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=upload_aat_cs" class="nav-link" title="AAT-I">
+												  <i class="nav-icon fas fa-upload"></i>
+												  <p> AAT-I </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=labrecord_std" class="nav-link" title="Lab Record">
+												  <i class="nav-icon fas fa-upload"></i>
+												  <p> Lab Record </p>
+												</a>
+											</li>
+																	</ul>
+							</li>
+														<li class="nav-item">
+								<a href="https://samvidha.iare.ac.in/home?action=std_bio" class="nav-link " title="Biometric ">
+								  <i class="nav-icon fas fa-fingerprint"></i>
+								  <p> Biometric </p>
+								</a>
+							</li>
+													<li class="nav-item has-treeview">
+								<a href="#" class="nav-link" title="Feedback">
+								  <i class="nav-icon fas fa-comment"></i>
+								  <p>Feedback <i class="fas fa-angle-left right"></i></p>
+								</a>
+								<ul class="nav nav-treeview">
+																			<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=esf" class="nav-link" title="Early Semester Feedback">
+												  <i class="nav-icon fas "></i>
+												  <p> Early Semester Feedback </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=obe_fb_std" class="nav-link" title="OBE Feedback">
+												  <i class="nav-icon fas "></i>
+												  <p> OBE Feedback </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=std_review_syllabus" class="nav-link" title="Design and Review of Syllabus">
+												  <i class="nav-icon fas "></i>
+												  <p> Design and Review of Syllabus </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=ss_std" class="nav-link" title="Satisfaction Survey">
+												  <i class="nav-icon fas "></i>
+												  <p> Satisfaction Survey </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=placement_std" class="nav-link" title="Placement Experience">
+												  <i class="nav-icon fas "></i>
+												  <p> Placement Experience </p>
+												</a>
+											</li>
+																				<li class="nav-item">
+												<a href="https://samvidha.iare.ac.in/home?action=ns" class="nav-link" title="NAAC SURVEY">
+												  <i class="nav-icon fas "></i>
+												  <p> NAAC SURVEY </p>
+												</a>
+											</li>
+																	</ul>
+							</li>
+										</ul>
+		</nav>
+      <!-- /.sidebar-menu -->
+    </div></div></div><div class="os-scrollbar os-scrollbar-horizontal os-scrollbar-unusable os-scrollbar-auto-hidden"><div class="os-scrollbar-track"><div class="os-scrollbar-handle" style="width: 100%; transform: translate(0px, 0px);"></div></div></div><div class="os-scrollbar os-scrollbar-vertical os-scrollbar-auto-hidden"><div class="os-scrollbar-track"><div class="os-scrollbar-handle" style="height: 71.6526%; transform: translate(0px, 0px);"></div></div></div><div class="os-scrollbar-corner"></div></div>
+    <!-- /.sidebar -->
+  </aside>
+<style>
+#myInput {
+  background-image: url('/images/searchicon.png');
+  background-position:10px 3px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding:3px 20px 3px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+</style>
+<script>
+  var parent = $("ul.sidebar-menu li.active").closest("ul").closest("li");
+  if (parent[0] != undefined)
+    $(parent[0]).addClass("active");
+
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".nav-sidebar li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+</script>						<div class="content-wrapper" style="min-height: 537.4px;">
+							<!-- Content Header (Page header) -->
+							<section class="content-header">
+								<div class="container-fluid">
+									<div class="row mb-2">
+										<div class="col-sm-6"><h1>Course Content Delivery</h1></div>
+										<div class="col-sm-6">
+											<ol class="breadcrumb float-sm-right">
+											  <li class="breadcrumb-item"><a href="#">Home</a></li>
+											  <li class="breadcrumb-item active">Course Content Delivery</li>
+											</ol>
+										</div>
+									</div>
+								</div><!-- /.container-fluid -->
+							</section>
+							<!-- Main content -->
+							
+							<section class="content">
+								<div class="card card-teal">
+	<div class="card-body">
+		<table class="table table-sm table-bordered table-striped table-hover text-center">
+			<thead>
+				<tr>
+					<th colspan="3" class="text-right">Academic Year:</th>
+					<th colspan="4" class="text-left"> 2025-26</th>
+				</tr>
+				<tr>
+					<th width="50px">S.No</th>
+					<th width="100px">Date</th>
+					<th width="50px">Period</th>
+					<th>Topics Covered</th>
+					<th width="100px">Status</th>
+					<th width="110px">Youtube Link</th>
+					<th width="150px">Powerpoint Lecture</th>
+					<!--<th>Handout</th>-->
+				</tr>
+			</thead>
+			<tbody>
+			<tr height="30"><th colspan="7" align="center" class="text-center bg-pink">ACSD29  -  Engineering Design Project</th></tr><tr height="30"><th colspan="7" align="center" class="text-center bg-pink">ACSD30  -  Java Full Stack Development</th></tr><tr height="30"><th colspan="7" align="center" class="text-center bg-pink">AECD19  -  Microprocessors and Microcontrollers</th></tr><tr>
+						<td>1</td>
+						<td>14 Jul, 2025</td>
+						<td>1</td>
+						<td class="text-left">OBE  DISCUSSION</td>
+						<td class="text-danger">ABSENT</td>
+						<td>
+						NIL						</td>
+												<td><a class="btn btn-sm btn-primary activity" href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE10690/activity_diary/6874bee468cca_ppt.pptx" target="_blank"><i class="fa fa-file-powerpoint" aria-hidden="true"></i> PPT</a></td>
+												<!--<td><span class="btn btn-sm btn-primary activity" data-href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE10690/activity_diary/">Handout</span></td>-->
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>14 Jul, 2025</td>
+						<td>4</td>
+						<td class="text-left">OBE  DISCUSSION</td>
+						<td class="text-danger">ABSENT</td>
+						<td>
+						NIL						</td>
+												<td><a class="btn btn-sm btn-primary activity" href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE10690/activity_diary/6874d9bd6014d_ppt.pptx" target="_blank"><i class="fa fa-file-powerpoint" aria-hidden="true"></i> PPT</a></td>
+												<!--<td><span class="btn btn-sm btn-primary activity" data-href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE10690/activity_diary/">Handout</span></td>-->
+					</tr>
+					<tr height="30"><th colspan="7" align="center" class="text-center bg-pink">AECD20  -  Control Systems</th></tr><tr>
+						<td>1</td>
+						<td>14 Jul, 2025</td>
+						<td>5</td>
+						<td class="text-left">OBE</td>
+						<td class="text-danger">ABSENT</td>
+						<td>
+						NIL						</td>
+												<td><a class="btn btn-sm btn-primary activity" href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE10696/activity_diary/6874db8946e61_ppt.pptx" target="_blank"><i class="fa fa-file-powerpoint" aria-hidden="true"></i> PPT</a></td>
+												<!--<td><span class="btn btn-sm btn-primary activity" data-href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE10696/activity_diary/">Handout</span></td>-->
+					</tr>
+					<tr height="30"><th colspan="7" align="center" class="text-center bg-pink">AECD21  -  Antenna and Wave Propagation</th></tr><tr>
+						<td>1</td>
+						<td>14 Jul, 2025</td>
+						<td>2</td>
+						<td class="text-left">1.1 COURSE OUTLINE DESCRIPTION</td>
+						<td class="text-danger">ABSENT</td>
+						<td>
+						NIL						</td>
+												<td><a class="btn btn-sm btn-primary activity" href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE10882/activity_diary/6874c6f2d93ee_ppt.pptx" target="_blank"><i class="fa fa-file-powerpoint" aria-hidden="true"></i> PPT</a></td>
+												<!--<td><span class="btn btn-sm btn-primary activity" data-href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE10882/activity_diary/">Handout</span></td>-->
+					</tr>
+					<tr height="30"><th colspan="7" align="center" class="text-center bg-pink">AECD22  -  High Speed Communications</th></tr><tr>
+						<td>1</td>
+						<td>14 Jul, 2025</td>
+						<td>3</td>
+						<td class="text-left">1.1 COURSE DESCRIPTION ON OUTCOME BASED EDUCATION</td>
+						<td class="">PRESENT</td>
+						<td>
+						NIL						</td>
+												<td><a class="btn btn-sm btn-primary activity" href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE11040/activity_diary/6874e029e6c97_ppt.pptx" target="_blank"><i class="fa fa-file-powerpoint" aria-hidden="true"></i> PPT</a></td>
+												<!--<td><span class="btn btn-sm btn-primary activity" data-href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE11040/activity_diary/">Handout</span></td>-->
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>14 Jul, 2025</td>
+						<td>6</td>
+						<td class="text-left">1.3 OVERVIEW OF MODULATION</td>
+						<td class="">PRESENT</td>
+						<td>
+						NIL						</td>
+												<td><a class="btn btn-sm btn-primary activity" href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE11040/activity_diary/6874e045dc172_ppt.pptx" target="_blank"><i class="fa fa-file-powerpoint" aria-hidden="true"></i> PPT</a></td>
+												<!--<td><span class="btn btn-sm btn-primary activity" data-href="https://iare-data.s3.ap-south-1.amazonaws.com/uploads/IARE/STAFF/IARE11040/activity_diary/">Handout</span></td>-->
+					</tr>
+					<tr height="30"><th colspan="7" align="center" class="text-center bg-pink">AECD25  -  Satellite Communications</th></tr><tr height="30"><th colspan="7" align="center" class="text-center bg-pink">AECD28  -  Microprocessors and Microcontrollers Laboratory</th></tr><tr height="30"><th colspan="7" align="center" class="text-center bg-pink">AECD29  -  Virtual Instrumentation Laboratory</th></tr>			</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="modal fade" id="modal-file_view">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title"></h4>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">X</button>
+			</div>
+			<div class="modal-body">
+				<div class="col-sm-10 mgauto">
+					<iframe id="fram_doc" src="" width="100%" height="600" style="border: none;"></iframe>
+				</div>
+			</div>
+			<div class="modal-footer justify-content-between">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>    
+<script>
+$(document).ready(function () {
+	$(".activity").click(function () {
+		$('#fram_doc').attr('src',$(this).data("href")+"#toolbar=0&amp;navpanes=0&amp;scrollbar=0");
+		$('#modal-file_view').modal('show');
+	})
+});
+</script>							</section>
+						</div>
+						<div id="sidebar-overlay"></div></div>
+<footer class="main-footer">
+  <strong>Copyright © 2025  Institute of Aeronautical Engineering.</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All rights reserved.
+</footer>
+	
+	
+
+
+<!-- ChartJS -->
+<script src="https://samvidha.iare.ac.in/plugins/chart.js/Chart.min.js"></script>
+
+<!-- Sparkline -->
+<script src="https://samvidha.iare.ac.in/plugins/sparklines/sparkline.js"></script>
+
+<!-- jQuery Knob Chart -->
+<script src="https://samvidha.iare.ac.in/plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="https://samvidha.iare.ac.in/plugins/moment/moment.min.js"></script>
+<script src="https://samvidha.iare.ac.in/plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Bootstrap Switch -->
+<script src="https://samvidha.iare.ac.in/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="https://samvidha.iare.ac.in/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="https://samvidha.iare.ac.in/plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="https://samvidha.iare.ac.in/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="https://samvidha.iare.ac.in/dist/js/adminlte.js"></script>
+
+<!-- AdminLTE for demo purposes -->
+<script src="https://samvidha.iare.ac.in/dist/js/demo.js"></script>
+	<script>
+	$(document).ready(function(){  
+		function check_session(){
+			$.ajax({
+				url:"pages/layout/check_session.php",
+				method:"POST",
+				success:function(data)
+				{
+					if(data == '1')
+					{
+						//alert('Your session has been expired!');  
+						window.location.href="index";
+					}
+				}
+			})
+		}
+		setInterval(function(){
+			check_session();
+		}, 60000);  //60000 means 60 seconds
+	});  
+	$("html").on("contextmenu",function(e){
+		return false;
+    });
+	$('#fram_doc').bind('contextmenu',function(e){ 
+		return false; 
+	});
+	
+	$(document).bind("menubar",function(e) {
+		//e.preventDefault();
+	});
+	
+	$(document).keydown(function(e){
+		
+		if(e.ctrlKey && e.keyCode == 83){
+			e.preventDefault(); 
+			return false;
+		}
+		if(e.which === 123 || e.which === 17 || e.which === 18 || e.which === 16){
+		   e.preventDefault(); 
+		   return false;
+		}
+		if ((e.ctrlKey && e.shiftKey && e.keyCode == 73) || (e.ctrlKey && e.keyCode==73) || (e.ctrlKey && e.shiftKey && e.keyCode == 74)  || (e.altKey && e.keyCode == 70)) {
+			 e.preventDefault(); 
+			return false;
+		}
+		//alert(e.keyCode);
+	
+	});
+	
+	
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+
+</body></html>
