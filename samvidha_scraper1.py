@@ -55,7 +55,7 @@ def get_attendance_summary(username, password):
         driver.quit()
 
 if __name__ == "__main__":
-    username = "23951a67d8"
-    password = "sanjay89191"
+    username = "username"
+    password = "password"
     get_attendance_summary(username, password)
 
