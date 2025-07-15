@@ -1,9 +1,9 @@
 services:
   - type: web
     name: attendance-bot
-    env: python
-    buildCommand: ./build.sh
-    startCommand: gunicorn app:app
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: TWILIO_ACCOUNT_SID
         value: ACda60259b25087be35c44a76048a8fd4f
