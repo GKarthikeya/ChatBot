@@ -1,0 +1,5 @@
+flask
+twilio
+selenium
+webdriver-manager
+gunicorn
