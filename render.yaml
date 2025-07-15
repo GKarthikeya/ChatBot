@@ -6,8 +6,8 @@ services:
     startCommand: gunicorn app:app
     envVars:
       - key: TWILIO_ACCOUNT_SID
-        value: your_twilio_sid
+        value: ACda60259b25087be35c44a76048a8fd4f
       - key: TWILIO_AUTH_TOKEN
-        value: your_twilio_auth_token
+        value: 89ad0f0b24faf74ba3bcc93d72adf2f1
       - key: TWILIO_WHATSAPP_FROM
         value: whatsapp:+14155238886
