@@ -1,6 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 def get_attendance_summary(username: str, password: str) -> str:
@@ -10,7 +12,7 @@ def get_attendance_summary(username: str, password: str) -> str:
     opts.add_argument("--disable-dev-shm-usage")
     # opts.add_argument("--headless")  # enable in production
 
-    driver = webdriver.Chrome(options=opts)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     try:
         driver.get("https://samvidha.iare.ac.in/")
         time.sleep(2)
