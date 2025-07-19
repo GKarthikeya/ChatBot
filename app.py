@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify
-from samvidha_scraper import login_and_scrape  # you should define this
+from samvidha_scraper import get_attendance_summary  # use your selenium function
 
 app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def index():
-    return "Samvidha Bot is live!"
+    return "✅ Samvidha Bot is live!"
 
 @app.route("/login", methods=["POST"])
 def login():
@@ -16,8 +16,8 @@ def login():
     if not username or not password:
         return jsonify({"error": "Username and password required"}), 400
 
-    result = login_and_scrape(username, password)
+    result = get_attendance_summary(username, password)
     return jsonify({"result": result})
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0", port=5000)
